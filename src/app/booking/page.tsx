@@ -4,7 +4,7 @@ import { TextField,Select,MenuItem,InputLabel } from "@mui/material";
 import { useState } from "react";
 
 import { getServerSession } from "next-auth"
-import { authOptions } from "@/app/api/auth/[...nextauth]/route"
+import { authOptions } from "@/app/api/auth/[...nextauth]/authOptions"
 import getUserProfile from "@/libs/getUserProfile"
 
 export default async function Booking() {
